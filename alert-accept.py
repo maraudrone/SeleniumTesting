@@ -38,8 +38,8 @@ try:
     alert = browser.switch_to.alert
     alert_text = alert.text
     print(alert_text)
+    print("Completed!")
 
 finally:
-    print("Completed!")
     print("Closing the browser...")
     browser.quit()
