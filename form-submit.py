@@ -1,6 +1,5 @@
 from selenium import webdriver
 from selenium.webdriver.common.by import By
-from selenium.webdriver.support import expected_conditions as EC
  
 link = "http://suninjuly.github.io/simple_form_find_task.html"
  
