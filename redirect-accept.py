@@ -30,8 +30,8 @@ try:
     print("Submitting form...")
     submit_button = browser.find_element(By.CSS_SELECTOR, "button[type='submit']")
     submit_button.click()
+    print("Completed!")
 
 finally:
-    print("Completed!")
     print("Closing the browser...")
     browser.quit()
