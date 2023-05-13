@@ -24,7 +24,8 @@ try:
     button = browser.find_element(By.CSS_SELECTOR, "#submit_button")
     print("Pressing submit button...")
     button.click()
+    print("Completed!")
  
 finally:
+    print("Closing browser...")
     browser.quit()
-    print("Completed!")
